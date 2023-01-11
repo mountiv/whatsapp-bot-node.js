@@ -1,4 +1,4 @@
-# WhatsApp ChatBot with Node.js
+# WhatsApp ChatBot Development using Node.js
 
 ![giff-wats](https://user-images.githubusercontent.com/67064886/90330135-d3c60780-df80-11ea-838c-f49bf15458b8.gif)
 
@@ -88,7 +88,6 @@ You will need to install some stuff, if they are not yet installed in your machi
 * [NPM (v3.5+; bundled with node.js installation package)](https://docs.npmjs.com/getting-started/installing-node#updating-npm)
 <br>
 
----
 
 ### Install through Github
 
