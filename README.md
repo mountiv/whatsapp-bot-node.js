@@ -1,9 +1,5 @@
 # WhatsApp ChatBot with Node.js
 
-[![PRETTIER](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://gitter.im/jlongster/prettie)
-[![LICENSE](https://img.shields.io/github/license/arshadkazmi42/awesome-github-init.svg)](https://github.com/arshadkazmi42/awesome-github-init/LICENSE)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Flucioerlan%2FWhatsapp-Chatbot&count_bg=%23E71A18&title_bg=%23555555&icon=dependabot.svg&icon_color=%23E7E7E7&title=views&edge_flat=false)](https://hits.seeyoufarm.com)
-
 ![giff-wats](https://user-images.githubusercontent.com/67064886/90330135-d3c60780-df80-11ea-838c-f49bf15458b8.gif)
 
 <br>
@@ -24,7 +20,7 @@ The api has nothing to do with the service, the only thing it does is to communi
 
 ### Create table into Postgres
 
-**/ChatBot-WhatsApp/api** 
+**ChatBot-WhatsApp/api** 
 ```sh
 $ npx knex migrate:latest
 ```
@@ -34,7 +30,7 @@ $ npx knex migrate:latest
 
 ### Insert data into Postgres
 
-**/ChatBot-WhatsApp/api** 
+**ChatBot-WhatsApp/api** 
 ```sh
 $ npx knex seed:run
 ```
@@ -43,7 +39,7 @@ $ npx knex seed:run
 
 ### Sample request using CURL in the command line/terminal:
 
-**/ChatBot-WhatsApp/api** 
+**ChatBot-WhatsApp/api** 
 ```
 curl http://localhost:4001/api/user/38581407838 | python3 -m json.tool
 ```
@@ -56,7 +52,7 @@ curl http://localhost:4001/api/user/38581407838 | python3 -m json.tool
 <br>
 
 
-## 1 - SERVICE
+## 2 - Service
 
 Scan QRCODE
 
@@ -82,7 +78,7 @@ This function is for the puppeteer to go back and forth between pages.
 
 
 
-# Installations
+## 3 - Installations
 
 ### Requirements
 
@@ -123,8 +119,6 @@ $ npm start
 ```
 <br>
 
-
----
 
 ### Running with Docker
 
