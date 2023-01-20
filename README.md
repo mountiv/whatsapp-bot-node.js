@@ -126,5 +126,5 @@ $ docker-compose up
 ```
 <br>
 
-## License & Copyright 
-© lucky7123
+## Author 
+© me
